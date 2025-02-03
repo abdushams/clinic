@@ -1,66 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services - HealthFirst Clinic</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services - HealthFirst Clinic</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">HealthFirst Clinic</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="services.html">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="reservation.html">Reservation</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="staff.html">Doctors & Staff</a>
-                </li>
-            </ul>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="HealthFirst Clinic" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reservation.html">Book Appointment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="doctors.html">Doctors</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Services Section -->
+  <section class="services py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Medical Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <h4>General Checkup</h4>
+            <p>Routine checkups to keep track of your overall health and prevent illnesses.</p>
+          </div>
         </div>
-    </nav>
-
-    <section class="container text-center">
-        <h2>Our Services</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <h3>General Consultation</h3>
-                <p>Our experienced doctors provide general consultations for all ages.</p>
-                <img src="service1.jpg" class="img-fluid" alt="General Consultation">
-            </div>
-            <div class="col-md-4">
-                <h3>Pediatrics</h3>
-                <p>We offer specialized care for infants, children, and adolescents.</p>
-                <img src="service2.jpg" class="img-fluid" alt="Pediatrics">
-            </div>
-            <div class="col-md-4">
-                <h3>Emergency Services</h3>
-                <p>Our clinic is equipped to handle medical emergencies with prompt care.</p>
-                <img src="service3.jpg" class="img-fluid" alt="Emergency Services">
-            </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <h4>Emergency Care</h4>
+            <p>Quick and reliable emergency medical services for accidents and urgent conditions.</p>
+          </div>
         </div>
-    </section>
+        <div class="col-md-4">
+          <div class="service-box">
+            <h4>Specialist Care</h4>
+            <p>Consultations with specialized doctors for specific medical conditions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <footer class="text-center">
-        <p>&copy; 2025 HealthFirst Clinic. All rights reserved.</p>
-    </footer>
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-4">
+    <p>&copy; 2025 HealthFirst Clinic. All rights reserved.</p>
+  </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
