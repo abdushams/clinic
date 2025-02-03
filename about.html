@@ -1,52 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - HealthFirst Clinic</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - HealthFirst Clinic</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">HealthFirst Clinic</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="reservation.html">Reservation</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="staff.html">Doctors & Staff</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
-    <section class="container text-center">
-        <h2>About HealthFirst Clinic</h2>
-        <p>HealthFirst Clinic has been providing exceptional healthcare services to the community since 1995. Our dedicated team of doctors, nurses, and staff are committed to offering personalized and compassionate care to each and every patient. We strive to create a welcoming and supportive environment where patients feel comfortable and confident in the care they receive.</p>
-        <img src="about.jpg" class="img-fluid" alt="About Us Image">
-        <p>Our clinic offers a wide range of services, including general consultations, pediatrics, emergency services, and more. Our state-of-the-art facilities and advanced medical technologies ensure that our patients receive the highest quality care possible.</p>
-    </section>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="HealthFirst Clinic" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reservation.html">Book Appointment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="doctors.html">Doctors</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <footer class="text-center">
-        <p>&copy; 2025 HealthFirst Clinic. All rights reserved.</p>
-    </footer>
+  <!-- About Section -->
+  <section class="about py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About HealthFirst Clinic</h2>
+      <p>At HealthFirst Clinic, our mission is to provide top-quality healthcare services with a patient-centered approach. We offer comprehensive care with the most advanced technology and experienced medical staff. Our clinic is designed to provide a comfortable and supportive environment for all your healthcare needs.</p>
+      <h3>Our Core Values</h3>
+      <ul>
+        <li>Compassionate Care</li>
+        <li>Patient-Centered Approach</li>
+        <li>Expert Medical Team</li>
+        <li>State-of-the-Art Facilities</li>
+        <li>Commitment to Excellence</li>
+      </ul>
+    </div>
+  </section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-4">
+    <p>&copy; 2025 HealthFirst Clinic. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
